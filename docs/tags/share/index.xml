@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Share on fav10</title>
-    <link>/tags/share/</link>
+    <link>https://www.fav10.co.uk/tags/share/</link>
     <description>Recent content in Share on fav10</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-GB</language>
     <lastBuildDate>Mon, 20 Apr 2020 22:51:18 +0100</lastBuildDate>
     
-	<atom:link href="/tags/share/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.fav10.co.uk/tags/share/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Top 10 Stock Brokers in the UK</title>
-      <link>/top-10-stock-brokers-in-the-uk/</link>
+      <link>https://www.fav10.co.uk/top-10-stock-brokers-in-the-uk/</link>
       <pubDate>Mon, 20 Apr 2020 22:51:18 +0100</pubDate>
       
-      <guid>/top-10-stock-brokers-in-the-uk/</guid>
+      <guid>https://www.fav10.co.uk/top-10-stock-brokers-in-the-uk/</guid>
       <description>Top 10 Stock Brokers In the UK, April, 2020
  Trading 212 Interactive Brokers Freetrade Revolut Degiro IG Interactive Investor Hargreaves Lansdown eToro Saxo Bank     Trading 212  Markets: US, UK, DE, FR, NL, Commission: Commission Free, Unlimited for all markets ISA: Free Option Trading: No Inactivity Fee: 0 Fractional shares: Yes Pending Orders: Yes Currency conversion fees: None Minimum Deposit: £1 Deposit: Bank Transfer, Card, Google Pay, Apple Pay Withdrawal fee: 0 Trading Platform: Desktop, iOS, Android       Interactive Brokers  Markets: 135 Markets in 31 Countries including US, UK, CA, JP, DE, FR and HK Commission: From $0.</description>
     </item>
