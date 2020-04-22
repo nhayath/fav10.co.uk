@@ -2,6 +2,8 @@ baseURL = "/"
 languageCode = "en-GB"
 title = "fav10"
 
+publishDir = "docs"
+
 [params]
 env="production"
 
