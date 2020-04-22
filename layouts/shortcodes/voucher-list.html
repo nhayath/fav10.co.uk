@@ -1,0 +1,25 @@
+<article class="media is-vc-list">
+    <figure class="media-left">
+        <p class="image is-64x64">
+            <img src='https://cdn.saletag.co.uk/post/{{ .Get "store" }}-t.png'>
+        </p>
+  </figure>
+
+  <div class="media-content">
+      <div class="level">
+          <div class="level-start">
+              <div class="level-item is-relative">
+                    <p class="menu-label">{{ .Get "store" }}</p>
+                    <h3 class="vc-title">{{ .Get "title" }}</h3>
+              </div>
+          </div>
+
+          <div class="level-end">
+              <div class="level-item is-relative">
+                    <a class="button is-small is-vc" href="{{ .Get `link` }}">CODE</a>
+              </div>
+          </div>
+      </div>
+    
+    </div>
+</article>

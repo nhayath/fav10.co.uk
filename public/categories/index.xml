@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on fav10</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on fav10</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <lastBuildDate>Mon, 20 Apr 2020 22:51:18 +0100</lastBuildDate>
+    
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Money</title>
+      <link>/categories/money/</link>
+      <pubDate>Mon, 20 Apr 2020 22:51:18 +0100</pubDate>
+      
+      <guid>/categories/money/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shopping</title>
+      <link>/categories/shopping/</link>
+      <pubDate>Wed, 15 Apr 2020 03:00:09 +0100</pubDate>
+      
+      <guid>/categories/shopping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech</title>
+      <link>/categories/tech/</link>
+      <pubDate>Wed, 15 Apr 2020 02:38:21 +0100</pubDate>
+      
+      <guid>/categories/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Utilities</title>
+      <link>/categories/utilities/</link>
+      <pubDate>Wed, 15 Apr 2020 02:15:46 +0100</pubDate>
+      
+      <guid>/categories/utilities/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

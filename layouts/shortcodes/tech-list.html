@@ -1,0 +1,34 @@
+{{ $data := .Get "data" }}
+{{ $list := getJSON $data }}
+
+{{ range $list }}
+    <article class="media is-vc-desc">
+        <div class="media-left">
+            <figure class="image">
+                    <img src="{{ .image }}">
+            </figure>
+        </div>
+
+        <div class="media-content is-vc-content" style="padding: 0 15px;">
+            <h1 class="title is-3">{{ .name }}</h1>
+
+            {{ with .desc }}
+                <p>{{ . | markdownify }}</p>
+            {{ end }}
+
+            <table class="table">
+                {{ with .attr }}
+                    {{ $nodes := . }}
+                    {{ range $nodes }}
+                        <tr>
+                            <th>{{ .name }}</th>
+                            <td>{{ .value }}</td>
+                        </tr>
+                    {{ end }}
+                {{ end }}
+            </table>
+        </div>
+    </article>
+    <hr />
+
+{{ end }}

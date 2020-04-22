@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Apple iPad Pro 11 2020",
+        "image": "/images/tech/apr2020/ipad-pro-11-2020.webp",
+        "desc": "**this is a desc**",
+        "attr": [
+            {
+                "name": "OS",
+                "value": "iPadOS"
+            },
+            {
+                "name": "Display",
+                "value": "11-inch Retina"
+            }
+        ]
+    }
+]

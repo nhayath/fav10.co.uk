@@ -1,0 +1,9 @@
+baseURL = "/"
+languageCode = "en-GB"
+title = "fav10"
+
+[params]
+env="production"
+
+[markup.goldmark.renderer]
+unsafe= true

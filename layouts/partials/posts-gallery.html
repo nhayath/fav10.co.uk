@@ -1,0 +1,31 @@
+{{ $featured_image := .Params.featured_image }}
+{{ $base_category := index (.Params.categories) 0 }}
+<article class="column is-one-third">
+
+  <div class="card">
+
+    <!-- image -->
+    {{ if .Params.featured_image }}
+  
+      {{ $featured_image := (trim $featured_image "/") | absURL }}
+      <div class="card-image">
+          <figure class="image tile-image">
+            <a href="{{.Permalink}}">
+              <img src="{{ $featured_image }}" alt="image from {{ .Title }}">
+            </a>
+        </figure>
+      </div>
+      
+    {{ end }}
+
+    <!-- content -->
+    <div class="card-content">
+        <p class="menu-label">{{ $base_category }}</p>
+        <div class="content is-list">
+            {{ .Title }}
+        </div>
+    </div>
+
+  </div>
+
+</article>

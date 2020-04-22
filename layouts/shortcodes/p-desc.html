@@ -1,0 +1,11 @@
+<article class="media p-desc">
+    <div class="media-left">
+        <figure class="image">
+            <img src="{{ .Get `image` }}">
+        </figure>
+    </div>
+
+    <div class="media-content is-vc-content" style="padding: 0 15px;">
+        {{ .Inner | markdownify }}
+    </div>
+</article>

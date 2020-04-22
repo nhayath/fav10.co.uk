@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<!-- get posts -->
+
+{{ $n_posts := $.Param "recent_posts_number" | default 8 }}
+
+<section class="section">
+    <div class="columns is-multiline">
+        {{ range where .Pages ".Type" "post" }}
+            
+            {{ partial "posts-gallery.html" . }}
+            
+        {{ end }}
+    </div>
+</section>
+
+
+
+ <article class="section">
+	<!-- content/_index.md -->
+    {{ .Content }}
+ </article>
+
+
+{{ end }}

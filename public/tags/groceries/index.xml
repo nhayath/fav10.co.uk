@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Groceries on fav10</title>
+    <link>/tags/groceries/</link>
+    <description>Recent content in Groceries on fav10</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <lastBuildDate>Wed, 15 Apr 2020 01:46:23 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/groceries/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Top 10 Grocery Supermarkes in the UK</title>
+      <link>/top-10-grocery-supermarket/</link>
+      <pubDate>Wed, 15 Apr 2020 01:46:23 +0100</pubDate>
+      
+      <guid>/top-10-grocery-supermarket/</guid>
+      <description>Grocery supermarkets are in fierce competition with one another to attract customers and increase their market share. They are always trying to lure customers with various offers and promotions. It is a fast changing market and hard to keep up with which companies have the best deals on the market right now, who are offering great quality food and providing the best services.
+We have compiled a list of 10 best grocery supermarkets in the UK at the moment based on their market share, customer ratings and social media trends.</description>
+    </item>
+    
+  </channel>
+</rss>

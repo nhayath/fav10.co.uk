@@ -1,0 +1,11 @@
+<article class="media is-vc-desc">
+    <div class="media-left">
+        <figure class="image">
+            <img src="https://cdn.saletag.co.uk/post/{{ .Get `store` }}-g.png" alt="{{ .Get `store` }} Voucher Code">
+        </figure>
+    </div>
+
+    <div class="media-content is-vc-content" style="padding: 0 15px;">
+        {{ .Inner | markdownify }}
+    </div>
+</article>

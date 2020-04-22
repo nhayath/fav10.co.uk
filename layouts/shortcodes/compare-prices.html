@@ -1,0 +1,28 @@
+{{ with $.Get "url" }}
+	<!-- get url -->
+	{{ $url := . }}
+	{{ $list := getJSON $url }}
+	
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Store</th>
+				<th>Price</th>
+				<th></th>
+			</tr>
+		</thead>
+
+		<tbody>
+			{{ range $list }}
+
+				<tr>
+					<td><h2 class="title is-4">{{ .store }}</h2></td>
+					<td><h3 class="title is-4">{{ $.Site.Params.currency }}{{ .price }}</h3></td>
+					<td><a class="button is-primary" href="{{ .url }}">Visit site</a></td>
+				</tr>
+
+			{{ end }}
+		</tbody>
+	</table>
+
+{{ end }}

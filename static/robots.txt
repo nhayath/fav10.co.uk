@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://www.fav10.co.uk/sitemap.xml

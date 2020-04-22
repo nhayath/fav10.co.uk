@@ -1,0 +1,41 @@
+{{ $featured_image := .Params.image }}
+
+{{ if $featured_image }}
+  {{ $featured_image := (trim $featured_image "/") | absURL }}
+  <header class="h-bg is-flex" style="background-image: url('{{ $featured_image }}');">
+
+
+      <div class="h-body">
+          {{ if isset .Params "categories" }}
+            <h5 class="h-cat"> {{ index .Params.categories 0 }} </h5>
+          {{ end }}
+          <h1 class="title is-2">{{ .Title | default .Site.Title }}</h1>
+
+          <article class="media">
+            <!-- image -->
+            <figure class="media-left">
+              <p class="image is-32x32">
+                <img src="/st-avatar.png" class="is-rounded">
+              </p>
+            </figure>
+            <!-- content -->
+            <div class="media-content">
+              <span class="caption">@saletaguk</span>
+              <time class="h-time" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+                {{- .Date.Format "January 2, 2006" -}}
+              </time>
+            </div>
+
+          </article>
+
+      </div>
+
+  </header>
+
+{{ else }}
+  <header>
+    <div class="{{ .Site.Params.background_color_class | default "bg-black" }}">
+      nav
+    </div>
+  </header>
+{{ end }}
