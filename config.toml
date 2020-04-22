@@ -1,8 +1,8 @@
 baseURL = "https://www.fav10.co.uk/"
 languageCode = "en-GB"
 title = "fav10"
-
 publishDir = "docs"
+googleAnalytics = "UA-164294820-1"
 
 [params]
 env="production"
